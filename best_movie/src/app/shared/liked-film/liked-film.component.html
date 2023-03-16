@@ -1,0 +1,4 @@
+<div class="container">
+    <h1 class="title">Самый лучший фильм</h1>
+    <app-film *ngFor="let film of likedMovie | slice:0:1" [film]="film"></app-film>
+</div>

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../liked-film/liked-film.component.scss"
+    ],
+    "names": [],
+    "file": "liked-film.component.css"
+}
