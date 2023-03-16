@@ -9,7 +9,11 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { HttpClientModule } from '@angular/common/http';
 import { BestMovieService } from './best-movie.service';
 import { SharedModule } from './shared/shared.module';
-// import {MatButton} from '@angular/material/button';
+import { MatButtonModule } from '@angular/material/button';
+import { StorageService } from './shared/services/storage.service';
+import { NgmaterialModule } from './ngmaterial/ngmaterial.module';
+import { FormsModule } from '@angular/forms';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -21,9 +25,15 @@ import { SharedModule } from './shared/shared.module';
     MatSlideToggleModule,
     HttpClientModule,
     SharedModule,
-    // MatButton,
+    MatButtonModule,
+    NgmaterialModule,
+    FormsModule,
+    MatSelectModule,
   ],
-providers: [BestMovieService],
+providers: [
+  BestMovieService,
+  StorageService,
+],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

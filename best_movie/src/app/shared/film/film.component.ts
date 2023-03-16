@@ -23,4 +23,5 @@ export class FilmComponent implements OnInit {
   saveFilm(id: any) {
     this.storageService.saveFilm(id);
   }
+
 }

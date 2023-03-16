@@ -1,5 +1,4 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { Movie } from 'src/app/interface/movie.interface';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-search',
@@ -8,7 +7,6 @@ import { Movie } from 'src/app/interface/movie.interface';
 })
 export class SearchComponent{
 
-  @Input() searchList: Movie[] = [];
   @Output() findFilms = new EventEmitter<{searchTerm: string}>();
 
   searchTerm: string = ''
@@ -18,7 +16,6 @@ export class SearchComponent{
   handleSearch (e: KeyboardEvent) {
     if(e.key === 'Enter') {
       this.findFilms.emit({searchTerm: this.searchTerm})
-      
     }
   }
 

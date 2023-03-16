@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAEI,UAFM,CAEN,MAAM,CAAC;EACH,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CACpB",
     "sources": [
         "../liked-film/liked-film.component.scss"
     ],

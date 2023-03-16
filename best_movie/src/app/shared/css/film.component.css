@@ -1,1 +1,54 @@
-/* No CSS *//*# sourceMappingURL=film.component.css.map */
+.film {
+  position: relative;
+  width: 190px;
+  height: 400px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(29, 24, 56, 0.1);
+}
+
+.film .container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 0;
+}
+
+.film .container .img {
+  margin-top: 15px;
+  width: 150px;
+  height: 225px;
+  border-radius: 5px;
+}
+
+.film .container .name {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.film .container .genre {
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.film .container .year {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.film .container .mdc-icon-button {
+  position: absolute;
+  right: 15px;
+  bottom: 20px;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=film.component.css.map */

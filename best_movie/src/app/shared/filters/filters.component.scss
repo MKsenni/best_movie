@@ -1,0 +1,18 @@
+.container {
+
+    .select {
+        width: 212px;
+        height: 56px;
+        border: 1px solid rgba(121, 121, 121, 0.5);
+        border-radius: 6px;
+        color: #797979;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        padding-left: 16px;
+
+        .option {
+            margin: 21px 16px 21px 6px;
+        }
+    }
+}

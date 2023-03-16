@@ -7,7 +7,6 @@ import { FormsModule } from '@angular/forms';
 import { FiltersComponent } from './filters/filters.component';
 
 
-
 @NgModule({
   declarations: [
     FilmComponent,
@@ -24,6 +23,7 @@ import { FiltersComponent } from './filters/filters.component';
     LikedFilmComponent,
     SearchComponent,
     FormsModule,
+    FiltersComponent,
   ],
 })
 export class SharedModule { }

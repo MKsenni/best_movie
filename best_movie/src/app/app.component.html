@@ -1,6 +1,15 @@
-<div class="container">
-  <app-film 
-  *ngFor="let film of moviesList" 
-  [film]="film">
-  </app-film>
+<div class="app-container">
+  <h1 class="title">Популярные фильмы</h1>
+
+  <div class="setting">
+    <app-filters (filterFilms)="onFilter($event)"></app-filters>
+    <app-search (findFilms)="onSearch($event)"></app-search>
+  </div>
+
+  <div class="films">
+    <app-film *ngFor="let film of filteredList" [film]="film"></app-film>
+  </div>
+
+
+  <app-liked-film></app-liked-film>
 </div>
