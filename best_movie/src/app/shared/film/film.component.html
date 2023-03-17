@@ -1,0 +1,15 @@
+<div class="film">
+    <div class="container">
+        <img class="img" [src]="film.url" alt="">
+        <h2 class="name">{{film.name}}</h2>
+        <span class="genre">{{film.genre}}</span>
+        <span class="year">{{film.year}}</span>
+        <button (click)="saveFilm(film.id)" class="mdc-icon-button material-icons">
+            <div class="mdc-icon-button__ripple"></div>
+            favorite_border
+        </button>
+
+    </div>
+</div>
+
+

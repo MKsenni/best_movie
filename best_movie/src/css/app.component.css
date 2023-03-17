@@ -1,0 +1,21 @@
+.app-container {
+  margin: 37px 0px 0px 25px;
+}
+
+.app-container .title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.app-container .setting {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.app-container .films {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/*# sourceMappingURL=app.component.css.map */
